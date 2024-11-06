@@ -1,0 +1,96 @@
+.membro-container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 25px;
+    margin: 20px auto;
+    z-index: 900;
+}
+
+.membro-container header{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.membro-container header span{
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.membro-container header span strong{
+    color: #333333;
+}
+
+.membro-container header img{
+    height: 50px;
+}
+
+.membro-container header a{
+    width: 250px;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+.membro-container header button{
+    border-radius: 5px;
+    border: 1px solid #DCDCE6;
+    background: transparent;
+    margin-left: 16px;
+    transition: border-color 0.5s;
+}
+
+.membro-container header button:hover{
+    border-color: #201465;
+}
+
+.membro-container h1 {
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+.membro-container ul {
+    display: grid;
+    padding: 0 25px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 35px;
+    list-style: none;
+}
+
+.membro-container ul li{
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.membro-container ul li button {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    border: 0;
+    background: transparent;  
+}
+
+.membro-container ul li button + button{
+    top: 50px;  
+}
+
+.membro-container ul li button:hover{
+    opacity: 0.8;  
+}
+
+.membro-container ul li strong{
+    display: block;
+    margin-bottom: 16px;
+    color: #41414D;
+}
+
+.membro-container ul li p + strong{
+    margin-top: 32px;
+}
+
+.membro-container ul li p {
+    color: #737380;
+    line-height: 21px;
+    font-size: 16px;
+}

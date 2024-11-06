@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+.app-container {
+  padding: 20px;
+}
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.tocha {
+  color: white;
+  cursor: pointer;
+  width: 30px;
+}
+.menu-items {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.menu-items p {
+  margin: 0 15px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+.menu-items p:hover {
+  background-color: #444;
+}
+.main-content {
+  margin-top: 60px;
+}
